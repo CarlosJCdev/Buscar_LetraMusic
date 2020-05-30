@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jc-Dev</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light navbar-expand sticky-top">
+        <div class="container"><img id="logo" src="assets/img/cap.png">
+            <a class="navbar-brand" id="titulo">LetrasMusicales</a>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse text-sm-right text-md-right text-lg-right text-xl-right" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                   <a href="https://www.linkedin.com/in/juan-carlos-mendoza-garcia-b279bb122/"> <i class="fab fa-linkedin fa-2x"></i></a>
+                    &nbsp;
+                   <a href="https://github.com/CarlosJCdev"><i class="fab fa-github fa-2x"></i></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="promo">
+        <div class="jumbotron">
+            <h1>Cambiaron vidas y generaciónes&nbsp;</h1>
+            <p>Busca la letra de tus canciones favoritas, solo ingresa el nombre del artista, y la canción</p>
+        </div>
+    </div>
+
+    <main id="contenido" class="contenido">
+        <div class="contenedor">
+            <div id="buscar" class="buscar">
+                <form action="#" id="formulario-buscar">
+                    <div id="campos" class="input art">
+                        <label for="artista">Artista:</label>
+                        <input type="text" id="artista" placeholder="Artista">
+                    </div>
+                    <div class="input">
+                        <label for="cancion">Canción:</label>
+                        <input type="text" id="cancion" placeholder="Nombre Canción">
+                    </div>
+
+                    <div class="input enviar">
+                        <input type="submit" value="Buscar">
+                    </div>
+
+                    <div id="mensajes"></div>
+                </form>
+            </div>
+            </div>
+            &nbsp;
+
+            <div class="contenedor">
+                <div>
+                    <div id="resultado2"></div>
+                </div>
+                <div class="letra-resultado">
+                    <div id="resultado"></div>
+                </div>
+
+        </div>
+        
+    </main>
+
+    <footer class="page-footer font-small">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://www.linkedin.com/in/juan-carlos-mendoza-garcia-b279bb122/">Juan Carlos Mendoza García</a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="assets/js/app.js" type="module"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
