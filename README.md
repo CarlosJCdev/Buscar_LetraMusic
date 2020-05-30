@@ -1,2 +1,4 @@
 # Buscar_LetraMusic
-Consulta a rest API con JavaScript, que nos devuelve la letra de una canción
+##Consulta a un servicio de API Rest, el cual nos retorna la letra de cansciones.
+
+<img src="assets/img/principal.JPG"/>
