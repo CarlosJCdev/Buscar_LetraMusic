@@ -1,0 +1,132 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/music.png);
+  background-size: cover;
+}
+body{
+  background-color: rgba(241, 114, 90, 1);
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.75);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 360px) {
+  #promo .jumbotron {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+.navbar {
+  background-color: #724f74;
+}
+
+#logo {
+  max-height: 42px;
+  margin-right: 18px;
+  margin-top: -3px;
+  display: inline-block;
+}
+.contenido {
+  background-color: rgba(241, 114, 90, 0.70);
+  max-width: 1100px;
+  margin:  0 auto;
+  height: 100%;
+  padding: 20px;
+}
+@media (min-width:768px) {
+  .contenedor {
+      display: flex;
+  }
+  .contenedor > div {
+      flex: 1 0 50%;
+  }
+}
+
+.formulario-busqueda p {
+  text-align: center;
+}
+.formulario-busqueda span {
+  color: red;
+}
+
+.input label {
+  flex: 0 0 120px;
+  text-align: right;
+  margin-right: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.input span {
+  color: red;
+}
+.input input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+ 
+
+.enviar {
+  text-align: right;
+  justify-content: flex-end!important;
+}
+.input input[type="submit"]{
+  background-color: rgba(82, 51, 84, 1);
+  padding: .5rem 2rem;
+  color: white;
+  align-self: flex-end;
+  border-radius: 10px;
+  transition: background-color .3s ease-in-out;
+} 
+.input input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #384e9d;
+}
+
+.error {
+  padding: 1rem;
+  border: 1px solid red;
+  background-color: rgb(249, 121, 121);
+  color: white;
+}
+.buscar{
+  border-radius: 20px;
+  padding: 50px;
+  background-color: rgba(146, 111, 148, 0.70);
+}
+.fab{
+  color: #d43a3a;
+}
+#resultado {
+  white-space: pre-wrap;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.rest{
+  background-color: #adc2dc;
+  align-content: center;
+}
+footer{
+  background-color: antiquewhite;
+}
+footer a{
+color: #384e9d;
+}
+#titulo{
+  color: antiquewhite;
+}
